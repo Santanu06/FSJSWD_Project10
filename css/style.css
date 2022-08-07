@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    background-image: url('../assets/retro-living-room-interior-design.jpg');
+    background-position: center;
+    
+    background-size: 100% 100%;
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-container{
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    margin-top: 30px;
+}
+.menu-container{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.contact-svg{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-top: 10px;
+}
+.contact-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.contacts h5{
+    margin-top: 10px;
+    line-height: 0 ;
+}
+.underline{
+    border-bottom: 2px solid #ffffff;
+    width: 750px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+.heading{
+   
+    font-size: 55px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px; 
+    top: 170px;
+    left: 120px;
+}
+.puzzle-content{
+    position: absolute;
+    background: rgba(239, 236, 236, 0.2);
+    width: 230px;
+    height: 130px;
+    right: 120px;
+    top: 180px;
+   
+}
+.puzzle_btn{
+    background: #ffffff;
+    width: 50px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.puzzle_btn img{
+    width: 20px;
+}
+
+.puzzle-text{
+   margin: 15px 20px;
+   font-weight: bold;
+   font-size: 13px;
+}
+
+.puzzle-vertical-line{
+    height: 50px;
+    border-left: 2px solid #aba6a6;
+    position: absolute;
+    right: 160px;
+    top: 310px;
+}
+
+.puzzle-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    right: 154px;
+    top:350px;
+}
+.learn-more{
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid #ffffff;
+    width: 100px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+.light-content{
+    
+    background: rgba(239, 236, 236, 0.2);
+    width: 230px;
+    height: 130px;
+    position: absolute;
+    top: 400px;
+    right: 250px;
+   
+}
+
+.light_btn{
+    background: #ffffff;
+    width: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ .light_btn img{
+    width: 20px;
+}
+
+.light-text{
+   margin: 15px 20px;
+   font-weight: bold;
+   font-size: 13px;
+}
+
+.light-vertical-line{
+    width: 50px;
+    border-top: 2px solid #aba6a6;
+   position: absolute;
+   top:440px;
+   right: 200px;
+   
+}
+
+.light-dot{ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 433px;
+    right: 185px;
+}
